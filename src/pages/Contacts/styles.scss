@@ -1,0 +1,60 @@
+.contactsPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.contactsPage a:hover {
+  text-decoration: underline;
+}
+
+.phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 93%;
+  color: var(--second-color);
+}
+
+.name {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 50px 0px 0px 0px;
+  border-left: 2px solid var(--second-color);
+  padding-left: 23px;
+}
+
+.mail {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 25px 0px 0px 0px;
+}
+.mail a {
+  color: var(--main-color);
+}
+.position {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: rgba(51, 61, 81, 0.5);
+  margin: 50px 0px 0px 0px;
+}
+
+.stack {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 25px 0px 0px 0px;
+}
+.stack span {
+  color: var(--second-color);
+}
+.contacts-image {
+  img {
+    max-width: 100%;
+  }
+}
